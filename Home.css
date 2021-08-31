@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@font-face {
+    font-family: "grungesplashregular";
+    src: url(grungesplashregular.ttf);
+}
+
+html {
+    color: #ffffff;
+    background-image: url(bg4.jpg);
+    height: 110vh;
+}
+
+body {
+    margin: 1.5rem;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.555);
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+
+.logo {
+    height: 4rem;
+    margin: 0;
+    transition: 200ms;
+}
+
+.drawings{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.drawings2{
+    display:flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.drawings3{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.spiderman{
+    height: 320px;
+    width: 320px;
+}
+
+.tattoo{
+    height: 320px;
+    width: 320px;
+}
+
+.drawings4{
+    display: flex;
+    justify-content:space-around ;
+    padding: 2rem;
+}
+
+.naruto{
+    height: 320px;
+    width: 320px;
+}
+
+.todoroki{
+    height: 320px;
+    font-weight: 320px;
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.548);
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-weight: 900;
+}
+
+@media (min-width: 501px) {
+    .navbar {
+        height: 7rem;
+    }
+
+    .logo {
+        position: absolute;
+        left: 5rem;
+    }
+
+    .logo:hover {
+        transform: scale(1.1);
+    }
+
+    .socials {
+        position: absolute;
+        right: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .socials > a {
+        padding: 1rem;
+        transition: 200ms;
+    }
+
+    .socials > a:hover {
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar {
+        height: max-content;
+        gap: 1rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .logo {
+        padding: 1rem 1rem 0;
+    }
+
+    .socials {
+        padding: 0 1rem 1rem;
+    }
+
+    .socials > a {
+        padding: 1rem;
+    }
+}
+
+
